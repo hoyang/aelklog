@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: ezlogging
+Version: 0.1.0
+Summary: A simple logging package that sends logs asynchronously to ELK with customizable fields.
+Author-email: "H.Yang" <yeticry@gmail.com>
+Project-URL: Homepage, https://github.com/hoyang/ezlogging
+Project-URL: Repository, https://github.com/hoyang/ezlogging
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv>=1.0.0
+Dynamic: license-file

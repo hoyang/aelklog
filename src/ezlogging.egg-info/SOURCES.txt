@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/elog/__init__.py
+src/elog/elog.py
+src/ezlogging.egg-info/PKG-INFO
+src/ezlogging.egg-info/SOURCES.txt
+src/ezlogging.egg-info/dependency_links.txt
+src/ezlogging.egg-info/requires.txt
+src/ezlogging.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "dotenv"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ezlogging"
+version = "0.1.0"
+description = "A simple logging package that sends logs asynchronously to ELK with customizable fields."
+readme = "README.md"
+requires-python = ">=3.8"
+license-files = ["LICENSE"]
+authors = [
+  {name = "H.Yang", email = "yeticry@gmail.com"}
+]
+
+dependencies = [
+  "python-dotenv>=1.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/hoyang/ezlogging"
+Repository = "https://github.com/hoyang/ezlogging"
