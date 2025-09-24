@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel", "dotenv"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ezlogging"
+name = "aelklog"
 version = "0.1.0"
 description = "A simple logging package that sends logs asynchronously to ELK with customizable fields."
 readme = "README.md"
@@ -18,5 +18,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/hoyang/ezlogging"
-Repository = "https://github.com/hoyang/ezlogging"
+Homepage = "https://github.com/hoyang/aelklog"
+Repository = "https://github.com/hoyang/aelklog"

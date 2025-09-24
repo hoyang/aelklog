@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import ezlogging
+import aelklog
 
 def test_log():
-    logger = ezlogging.setup_logstash_logger(logger_name="download", logstash_host="192.168.77.8", logstash_port=5045)
+    logger = aelklog.setup_logstash_logger(logger_name="download", logstash_host="192.168.77.8", logstash_port=5045)
     
     logger.debug("This is a debug message", extra={"user": "alice", "action": "test_debug"})
     logger.info("This is an info message", extra={"user": "bob", "action": "test_info"})
